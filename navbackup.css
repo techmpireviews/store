@@ -1,0 +1,272 @@
+    	form, input, button, textarea, select, a {
+		-webkit-tap-highlight-color: rgba(0,0,0,0);
+		}
+
+		form, input, button, textarea, select, a:focus {
+		outline: none;
+		}
+
+		#form {
+			display: none;
+		}
+
+		#min {
+			visibility: hidden;
+		}
+
+    	#maxsearch {
+    		position: absolute;
+    		margin-top: -17px;
+    		left: 50%;
+    		right: -50%;
+    		transform: translate(-50%, -50%);
+    		width: 40%;
+    		height: 25px;
+    		background-color: transparent;
+    		border: solid 1.1px;
+    		border-color: transparent;
+    		border-bottom-color: #000000;
+    		font-size: 27px;
+    		color: #000000;
+    		transition: 0.2s ease-in-out;
+    	}
+
+    	header {
+    		position: absolute;
+    		top: 0px;
+    		left: 0px;
+    		width: 100%;
+    		height: 50px;
+    		display: inline;
+    	}
+
+    	#maxnavbtn {
+    		position: relative;
+    		top: 2px;
+    		left: -75px;
+    		font-size: 35px;
+    		background-color: #ffffff;
+    		-webkit-clip-path: circle();
+    		border: none;
+    	}
+
+    	#logo {
+    		position: absolute;
+    		margin-top: 26px;
+    		left: 50%;
+    		right: 50%;
+    		transform: translate(-50%, -50%);
+    		width: 195px;
+    		height: auto;
+    		margin-left: -4px;
+    	}
+
+    	#maxlogo {
+    		position: absolute;
+    		top: 5px;
+    		right: 20px;
+    		width: 280px;
+    		height: auto;
+    		margin-left: -4px;
+    	}
+
+    	#maintop {
+    		visibility: visible;
+    	}
+
+    	datalist {
+    		background-color: blue;
+    	}
+
+    	input::-webkit-calendar-picker-indicator {
+    		display: none;
+    	}
+
+    @media only screen and (max-width: 970px) {
+
+    	form, input, button, textarea, select, a {
+		-webkit-tap-highlight-color: rgba(0,0,0,0);
+		}
+
+		form, input, button, textarea, select, a:focus {
+		outline: none;
+		}
+
+		#form {
+			display: none;
+		}
+
+		#min {
+			visibility: hidden;
+		}
+
+    	#maxsearch {
+    		position: absolute;
+    		margin-top: -32px;
+    		left: 80px;
+    		width: 500px;
+    		height: 25px;
+    		transform: none;
+    		background-color: transparent;
+    		border: solid 1.1px;
+    		border-color: transparent;
+    		border-bottom-color: #000000;
+    		font-size: 27px;
+    		color: #000000;
+    		transition: 0.2s ease-in-out;
+    	}
+
+    	header {
+    		position: absolute;
+    		top: 0px;
+    		left: 0px;
+    		width: 100%;
+    		height: 50px;
+    		display: inline;
+    	}
+
+    	#maxnavbtn {
+    		position: relative;
+    		top: 6px;
+    		left: -75px;
+    		font-size: 35px;
+    		background-color: #ffffff;
+    		-webkit-clip-path: circle();
+    		border: none;
+    	}
+
+    	#logo {
+    		position: absolute;
+    		margin-top: 26px;
+    		left: 50%;
+    		right: 50%;
+    		transform: translate(-50%, -50%);
+    		width: 195px;
+    		height: auto;
+    		margin-left: -4px;
+    	}
+
+    	#maxlogo {
+    		position: absolute;
+    		top: 5px;
+    		right: 20px;
+    		width: 280px;
+    		height: auto;
+    		margin-left: -4px;
+    	}
+
+    	#maintop {
+    		visibility: visible;
+    	}
+
+    	datalist {
+    		background-color: blue;
+    	}
+
+    	input::-webkit-calendar-picker-indicator {
+    		display: none;
+    	}
+    }
+
+    @media only screen and (max-width: 892px) {
+
+    	form, input, button, textarea, select, a {
+		-webkit-tap-highlight-color: rgba(0,0,0,0);
+		}
+
+		form, input, button, textarea, select, a:focus {
+		outline: none;
+		}
+
+		#max {
+			visibility: hidden;
+		}
+
+		#min {
+			visibility: visible;
+		}
+
+    	#form {
+    		visibility: hidden;
+    		display: inline-block;
+    	}
+
+    	#search {
+    		position: absolute;
+    		margin-top: -40px;
+    		margin-right: -40px;
+    		right: 50%;
+    		left: 99%;
+    		width: 0px;
+    		height: 50px;
+    		transform: translate(-50%, -50%);
+    		border: solid 1.1px;
+    		border-color: #ffffff;
+    		border-bottom-color: #000000;
+    		font-size: 33px;
+    		color: #000000;
+    		transition: 0.2s ease-in-out;
+    	}
+
+    	header {
+    		position: absolute;
+    		top: 0px;
+    		left: 0px;
+    		width: 100%;
+    		height: 50px;
+    		display: inline;
+    	}
+
+    	#navbtn {
+    		position: relative;
+    		top: -1px;
+    		left: 0px;
+    		font-size: 35px;
+    		background-color: #ffffff;
+    		-webkit-clip-path: circle();
+    		border: none;
+    	}
+
+    	#searchbtn {
+    		position: absolute;
+    		background-color: #ffffff;
+    		top: 7px;
+    		right: 0px;
+    		width: 50px;
+    		height: auto;
+    		border: none;
+    	}
+
+    	#searchclose {
+    		position: absolute;
+    		background-color: #ffffff;
+    		top: 3px;
+    		right: 2px;
+    		width: 50px;
+    		height: auto;
+    		border: none;
+    	}
+
+    	#logo {
+    		position: absolute;
+    		margin-top: 26px;
+    		left: 50%;
+    		right: 50%;
+    		transform: translate(-50%, -50%);
+    		width: 195px;
+    		height: auto;
+    		margin-left: -4px;
+    	}
+
+    	#maintop {
+    		visibility: visible;
+    	}
+
+    	datalist {
+    		background-color: blue;
+    	}
+
+    	input::-webkit-calendar-picker-indicator {
+    		display: none;
+    	}
+}

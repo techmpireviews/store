@@ -1,0 +1,216 @@
+    	form, input, button, textarea, select, a {
+		-webkit-tap-highlight-color: rgba(0,0,0,0);
+		}
+
+		form, input, button, textarea, select, a:focus {
+		outline: none;
+		}
+
+    	#form {
+    		visibility: hidden;
+    		display: inline-block;
+    	}
+
+    	#search {
+    		position: absolute;
+    		margin-top: -40px;
+    		margin-right: -40px;
+    		right: 50%;
+    		left: 99%;
+    		width: 0px;
+    		height: 50px;
+    		transform: translate(-50%, -50%);
+    		border: solid 1.1px;
+    		border-color: #ffffff;
+    		border-bottom-color: #000000;
+    		font-size: 33px;
+    		color: #000000;
+    		transition: 0.2s ease-in-out;
+    	}
+
+    	header {
+    		position: absolute;
+    		top: 0px;
+    		left: 0px;
+    		width: 100%;
+    		height: 50px;
+            visibility: visible;
+    		display: inline;
+    	}
+
+    	#navbtn {
+    		position: relative;
+    		top: -1px;
+    		left: 0px;
+    		font-size: 35px;
+    		background-color: #ffffff;
+    		-webkit-clip-path: circle();
+    		border: none;
+    	}
+
+        #closenavbtn {
+            position: relative;
+            top: 9px;
+            left: 0px;
+            font-size: 35px;
+            background-color: transparent;
+            border: none;
+        }
+
+    	#searchbtn {
+    		position: absolute;
+    		background-color: #ffffff;
+    		top: 7px;
+    		right: 0px;
+    		width: 50px;
+    		height: auto;
+    		border: none;
+    	}
+
+    	#searchclose {
+    		position: absolute;
+    		background-color: #ffffff;
+    		top: 3px;
+    		right: 2px;
+    		width: 50px;
+    		height: auto;
+    		border: none;
+    	}
+
+    	#logo {
+    		position: absolute;
+    		margin-top: 26px;
+    		left: 50%;
+    		right: 50%;
+    		transform: translate(-50%, -50%);
+    		width: 195px;
+    		height: auto;
+    		margin-left: -4px;
+    	}
+
+        #navlogo {
+            position: absolute;
+            margin-top: 18px;
+            width: 185px;
+            height: auto;
+            margin-left: 5px;
+        }
+
+    	#maintop {
+    		visibility: visible;
+    	}
+
+        #nav {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 250px;
+            height: 100vh;
+            background-color: #ffffff;
+            border: solid 0px;
+            border-color: #000000;
+            visibility: hidden;
+            border-right-width: 1.25px;
+            transition: 0.3s ease-in-out;
+            -webkit-clip-path: inset(0 100% 0 0);
+            z-index: 10;
+        }
+
+        #navtop {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 250px;
+            height: 72px;
+            background-color: #ffffff;
+            border: solid 0px;
+            border-color: #000000;
+            border-bottom-width: 1.3px;
+            z-index: 1;
+        }
+
+    	datalist {
+    		background-color: blue;
+    	}
+
+    	input::-webkit-calendar-picker-indicator {
+    		display: none;
+    	}
+
+    @media only screen and (max-width: 300px) {
+    	#logo {
+    		width: 150px;
+    	}
+    }
+
+    #navmain {
+        font-family: sans-serif;
+    }
+
+    #apps {
+        position: absolute;
+        margin-top: 94px;
+        width: 100%;
+        height: 70px;
+        background-color: #FFD537;
+    }
+
+    #topcharts {
+        position: absolute;
+        margin-top: 158px;
+        width: 100%;
+        height: 70px;
+        background-color: #51FF48;
+    }
+
+    #create {
+        position: absolute;
+        margin-top: 222px;
+        width: 100%;
+        height: 70px;
+        background-color: #9BE6FA;
+    }
+
+    #appimg {
+        position: relative;
+        margin-left: 60px;
+        margin-top: 15px;
+        width: 40px;
+        height: auto;
+    }
+
+    #appb {
+        position: relative;
+        top: -10px;
+        font-size: 25px;
+    }
+
+    #topchartsimg {
+        position: relative;
+        margin-left: 43px;
+        margin-top: 18px;
+        width: 33px;
+        height: auto;
+    }
+
+    #topchartsb {
+        position: relative;
+        top: -8px;
+        font-size: 23px;
+        margin-left: 3px;
+    }
+
+    #createimg {
+        position: relative;
+        margin-left: 40px;
+        margin-top: 17px;
+        width: 35px;
+        height: auto;
+    }
+
+    #createb {
+        position: relative;
+        top: -8px;
+        font-size: 23px;
+        margin-left: 3px;
+    }
