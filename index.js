@@ -18,12 +18,12 @@
 			document.getElementById('header').style.visibility = "hidden";
 			document.getElementById('nav').style.visibility = "visible";
 			document.getElementById('nav').style.left = "0px";
-			document.getElementById('nav').style.clipPath = "inset(0 0 0 0)";
+			document.getElementById('nav').style.webkitClipPath = "inset(0 0 0 0)";
 		}
 
 		function close1() {
 			document.getElementById('header').style.visibility = "visible";
 			document.getElementById('nav').style.visibility = "hidden";
 			document.getElementById('nav').style.left = "0px";
-			document.getElementById('nav').style.clipPath = "inset(0 100% 0 0)";
+			document.getElementById('nav').style.webkitClipPath = "inset(0 100% 0 0)";
 		}
