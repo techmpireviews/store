@@ -52,7 +52,15 @@
 	</header>
 		<main id="main">
 			<div id="featured">
-				<iframe scrolling="no" width="100%" height="400px" id="frame" frameborder="0px" src="frames/main.php"></iframe>
+				<iframe scrolling="no" id="frame" frameborder="0px" src="frames/main.php"></iframe>
+			</div>
+			<div id="middlecharts">
+				<b id="middleb">Top Charts</b>
+				<div id="middleimages">
+					<img id="radioicon" class="topicons" src="apps/lintonradio/icons/icon.png">
+					<img id="kjicon" class="topicons" src="apps/katiejeans/icons/icon.png">
+					<img id="bficon" class="topicons" src="apps/baumanfinancial/icons/icon.png">
+				</div>
 			</div>
 		</main>
 	</body>

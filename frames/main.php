@@ -14,10 +14,10 @@
 	<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
   	<div class="carousel-inner">
     	<div class="carousel-item active">
-        	<img src="../apps/lintonradio/icons/featured.png" class="d-block w-100" alt="../apps/lintonradio/icons/featured.png">
+        	<img src="../images/featured1.png" class="d-block w-100">
     	</div>
     	<div class="carousel-item">
-      		<img src="../apps/baumanfinancial/icons/featured.png" class="d-block w-100" alt="../apps/baumanfinancial/icons/featured.png">
+      		<img src="../images/featured2.png" class="d-block w-100">
     		</div>
   		</div>
 	</div>

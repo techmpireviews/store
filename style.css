@@ -3,9 +3,56 @@ body {
 	height: 100%;
 }
 
-#frame {
+main {
 	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#frame {
+	position: relative;
+	width: 100%;
+	height: 300px;
 	top: 70px;
 	left: 0px;
 	overflow: hidden;
+}
+
+#middlecharts {
+	position: relative;
+	margin-top: -50px;
+	text-align: center;
+	z-index: 2;
+}
+
+.topicons {
+	width: 50px;
+	height: auto;
+}
+
+#middleb {
+	font-family: sans-serif;
+	font-size: 35px;
+	padding-bottom: 2px;
+	border: solid 0px;
+	border-color: #000000;
+	border-bottom-width: 1px;
+}
+
+#middleimages {
+	display: flex;
+	justify-content: center;
+	margin-top: 13px;
+}
+
+#kjicon {
+	border: solid 2px;
+	border-radius: 10px;
+	margin-left: 30px;
+}
+
+#bficon {
+	margin-left: 30px;
 }
