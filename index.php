@@ -13,7 +13,7 @@
 	<nav id="nav">
 		<span id="navtop">
 			<button id="closenavbtn" onclick="close1()">☰</button>
-			<img id="navlogo" src="images/logomain.png">
+			<img id="navlogo" src="images/appstore.png">
 		</span>
 		<div id="navmain">
 			<span class="navcontent" id="apps">
