@@ -5,9 +5,11 @@
     <link rel="apple-touch-icon" sizes="512x512" href="images/app.png">
     <link rel="icon" href="images/app.png">
     <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <script src="index.js" type="text/javascript"></script>	
     <title>Online App Store</title>
 </head>
+<body>
 	<nav id="nav">
 		<span id="navtop">
 			<button id="closenavbtn" onclick="close1()">☰</button>
@@ -33,8 +35,8 @@
 	<header id="header">
 		<div id="maintop">
 			<button type="button" id="navbtn" onclick="open1()">☰</button>
-			<img id="logo" src="images/logomain.png">
-			<button id="searchbtn" onclick="search()"><img width="33.5px" height="auto" src="images/search.png"></button>
+			<img id="logo" src="images/appstore.png">
+			<button id="searchbtn" onclick="search()"><img width="50px" height="auto" src="images/search.png"></button>
 		</div>
 		<span id="form">
 			<form>
@@ -48,4 +50,10 @@
 			<button id="searchclose" onclick="closesearch()"><img width="45px" height="auto" src="images/exit.png"></button>
 		</span>
 	</header>
+		<main id="main">
+			<div id="featured">
+				<iframe scrolling="no" width="100%" height="100%" id="frame" frameborder="0px" src="frames/main.php"></iframe>
+			</div>
+		</main>
+	</body>
 </html>

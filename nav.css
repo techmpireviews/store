@@ -13,7 +13,7 @@
 
     	#search {
     		position: absolute;
-    		margin-top: -40px;
+    		top: 30px;
     		margin-right: -40px;
     		right: 50%;
     		left: 99%;
@@ -25,6 +25,7 @@
     		border-bottom-color: #000000;
     		font-size: 33px;
     		color: #000000;
+            float: left;
     		transition: 0.2s ease-in-out;
     	}
 
@@ -40,9 +41,9 @@
 
     	#navbtn {
     		position: relative;
-    		top: -1px;
+    		top: -6px;
     		left: 0px;
-    		font-size: 35px;
+    		font-size: 55px;
     		background-color: #ffffff;
     		-webkit-clip-path: circle();
     		border: none;
@@ -60,9 +61,8 @@
     	#searchbtn {
     		position: absolute;
     		background-color: #ffffff;
-    		top: 7px;
-    		right: 0px;
-    		width: 50px;
+    		top: 10px;
+    		right: 5px;
     		height: auto;
     		border: none;
     	}
@@ -70,20 +70,21 @@
     	#searchclose {
     		position: absolute;
     		background-color: #ffffff;
-    		top: 3px;
+    		top: 6px;
     		right: 2px;
-    		width: 50px;
+    		width: 70px;
+            float: right;
     		height: auto;
     		border: none;
     	}
 
     	#logo {
     		position: absolute;
-    		margin-top: 26px;
+    		margin-top: 33px;
     		left: 50%;
     		right: 50%;
     		transform: translate(-50%, -50%);
-    		width: 195px;
+    		width: 185px;
     		height: auto;
     		margin-left: -4px;
     	}

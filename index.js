@@ -4,6 +4,7 @@
 			document.getElementById('search').style.left = "50%";
 			document.getElementById('maintop').style.visibility = "hidden";
 			document.getElementById('maintop').style.left = "-200%";
+			document.getElementById('main').style.visibility = "hidden";
 		}
 		
 		function closesearch() {
@@ -12,6 +13,7 @@
 			document.getElementById('search').style.left = "99%";
 			document.getElementById('search').style.width = "0px";
 			document.getElementById('maintop').style.visibility = "visible";
+			document.getElementById('main').style.visibility = "visible";
 		}
 
 		function open1() {
