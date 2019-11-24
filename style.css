@@ -9,6 +9,7 @@ main {
 	left: 0px;
 	width: 100%;
 	height: 100%;
+	z-index: -1;
 }
 
 #frame {
@@ -44,7 +45,7 @@ main {
 #middleimages {
 	display: flex;
 	justify-content: center;
-	margin-top: 13px;
+	margin-top: 17px;
 }
 
 #kjicon {
