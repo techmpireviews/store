@@ -62,6 +62,13 @@
 					<img id="bficon" class="topicons" src="apps/baumanfinancial/icons/icon.png">
 				</div>
 			</div>
+			<div id="comingsoon">
+				<b id="csb">Comming Soon!</b>
+				<br>
+				<span>
+					<img id="comingsoonimg" src="images/cs1.png">
+				</span>
+			</div>
 		</main>
 	</body>
 </html>
