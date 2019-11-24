@@ -52,7 +52,7 @@
 	</header>
 		<main id="main">
 			<div id="featured">
-				<iframe scrolling="no" width="100%" height="100%" id="frame" frameborder="0px" src="frames/main.php"></iframe>
+				<iframe scrolling="no" width="100%" height="85%" id="frame" frameborder="0px" src="frames/main.php"></iframe>
 			</div>
 		</main>
 	</body>
